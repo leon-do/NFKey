@@ -53,7 +53,6 @@ contract NFKey {
     * nfKey     -- nfKeyToAuthKey() --> authKey
     * authKey   -- authKeyToItemId()--> itemId
     * nfKey     -- nfKeyToItemId()  --> itemId
-    * @example hello -> 0x2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824 -> 0x9595c9df90075148eb06860365df33584b75bff782a510c6cd4883a419833d50
     */
     // hashes nfKey to authKey
     function nfKeyToAuthKey(string memory _nfKey) public pure returns (bytes32) {
